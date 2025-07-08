@@ -1,7 +1,6 @@
 import NextAuth from "next-auth";
 import GitHubProvider from "next-auth/providers/github";
 import { supabase } from '../../../services/supabase';
-import { PostgrestError } from "@supabase/supabase-js";
 
 
 export default NextAuth({
